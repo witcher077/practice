@@ -1,0 +1,52 @@
+#one{
+    background-color: beige;
+}
+#two{
+    background-color: red;
+}
+#three{
+    background-color: blue;
+}
+#four{
+    background-color: pink;
+}
+#five{
+    background-color: black;
+}
+#six{
+    background-color: orange;
+}
+.toggle_rapper{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    width: 400px;
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+#bt:hover{
+    cursor: pointer;
+}
+#bt{
+    width: 70px;
+    height: 25px;
+    background-color: green;
+    border-radius: 12px 12px 12px 12px;
+
+}
+#dot{
+position: relative;
+background-color: white;
+width: 20px;
+height: 20px;
+border-radius: 10px;
+top: 2px;
+left: 2px;
+}
